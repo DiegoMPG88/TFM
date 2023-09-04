@@ -1,0 +1,41 @@
+---
+title: "distill con github"
+description: |
+  
+author:
+  - name: Diego MP González ()
+    affiliation_url: 
+date: "`r Sys.Date()`"
+output:
+    distill::distill_article:
+        fig_caption: false
+        highlight: kate
+        colorlinks: true
+        code_folding: true
+        toc: true 
+        toc_depth: 3
+        
+---
+
+```{r setup, include = FALSE}
+# Ajustes comunes de los chunk
+knitr::opts_chunk$set(fig.width = 9, fig.asp = 1, out.width = "50%",
+                      message = FALSE, warning = FALSE,
+                      echo = TRUE,res = 400,cache = FALSE)#,
+                      #cache.extra = 1)#reset cache globalmente
+rm(list = ls())
+cat("\f") #.BORRAR CONSOLA CTRL+L
+##TOC START----
+```
+
+
+## R Markdown con distill
+
+This is an R Markdown document. Markdown is a simple formatting syntax for authoring HTML, PDF, and MS Word documents. For more details on using R Markdown see <http://rmarkdown.rstudio.com>.
+
+When you click the **Knit** button a document will be generated that includes both content as well as the output of any embedded R code chunks within the document. You can embed an R code chunk like this:
+
+```{r cars}
+summary(cars)
+```
+
