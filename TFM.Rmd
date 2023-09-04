@@ -3,16 +3,29 @@ title: "Untitled"
 description: |
   A new article created using the Distill format.
 author:
-  - name: Nora Jones 
-    url: https://example.com/norajones
-    affiliation: Spacely Sprockets
-    affiliation_url: https://example.com/spacelysprokets
+  - name: Diego MP González
+    url: 
+    affiliation: Universidad Complutense de Madrid
+    affiliation_url: 
 date: "`r Sys.Date()`"
-output: distill::distill_article
+output: 
+    distill::distill_article:
+      fig_caption: false
+      highlight: kate
+      colorlinks: true
+      code_folding: true
+      toc: false 
+      toc_depth: 3
 ---
 
 ```{r setup, include=FALSE}
-knitr::opts_chunk$set(echo = FALSE)
+knitr::opts_chunk$set(fig.width = 9, fig.asp = 1, out.width = "50%",
+                      message = FALSE, warning = FALSE,echo = TRUE,res = 400,cache = FALSE)#,
+                      #cache.extra = 1)#reset cache globalmente
+
+rm(list = ls())
+cat("\f") #.BORRAR CONSOLA CTRL+L
+##TOC START----
 ```
 
 Distill is a publication format for scientific and technical writing, native to the web. 
@@ -21,5 +34,7 @@ Learn more about using Distill for R Markdown at <https://rstudio.github.io/dist
 
 
 cambiar un poco el tema
+
+
 
 
