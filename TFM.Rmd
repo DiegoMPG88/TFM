@@ -28,13 +28,6 @@ cat("\f") #.BORRAR CONSOLA CTRL+L
 ##TOC START----
 ```
 
-Distill is a publication format for scientific and technical writing, native to the web. 
-
-Learn more about using Distill for R Markdown at <https://rstudio.github.io/distill>.
-
-
-cambiar un poco el tema
-
-
+**Este documento rMarkdown contiene todo el código R utilizado para el desarrollo del TFM**
 
 
